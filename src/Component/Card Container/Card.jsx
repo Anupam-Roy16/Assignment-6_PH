@@ -1,5 +1,9 @@
-const Card = ({ product }) => {
-  console.log(product);
+const Card = ({ product ,setSelectedCard , selectedCard, price, setPrice}) => {
+  // console.log(product);
+  const handlebuynow = () => {
+setSelectedCard([...selectedCard,product])
+setPrice(price+product.price)
+  };
   return (
     <div className="shadow-2xl p-3">
       <div className="flex justify-between items-center mb-2">
@@ -35,7 +39,7 @@ const Card = ({ product }) => {
           </li>
         ))}
       </ul>
-      <button className="btn btn-primary w-full rounded-4xl mt-5">Buy Now</button>
+      <button onClick={handlebuynow} className="btn btn-primary w-full rounded-4xl mt-5">Buy Now</button>
       {/* <button className="Primary ">Buy Now</button> */}
     </div>
   );

@@ -1,7 +1,10 @@
 import { use, useState } from "react";
 import Card from "./Card";
+import Selected from "./Selected";
 const Card_Container = ({ promise }) => {
   const [selecetedtype, setSelecetedtype] = useState("Products");
+  const [selectedCard, setSelectedCard] = useState([]);
+  const [price, setPrice] = useState(0);
   const data = use(promise);
   return (
     <>
@@ -35,11 +38,11 @@ const Card_Container = ({ promise }) => {
       {selecetedtype === "Products" ? (
         <div className="container mx-auto grid grid-cols-3 gap-3 mt-9">
           {data.map((product) => {
-            return <Card product={product}> </Card>;
+            return <Card product={product} selectedCard={selectedCard} setSelectedCard={setSelectedCard} price={price} setPrice={setPrice}> </Card>;
           })}
         </div>
       ) : (
-        <div>this is Anupam Roy</div>
+       <Selected selectedCard={selectedCard} price={price} setPrice={setPrice} setSelectedCard={setSelectedCard}></Selected>
       )}
       
     </>
