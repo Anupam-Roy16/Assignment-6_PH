@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "title": "Premium Digital Tools",
+      "description": "Access a curated collection of powerful tools for design, productivity, and marketing.",
+      "price": 49,
+      "pricingType": "one-time",
+      "badge": "Popular",
+      "features": [
+        "50+ premium tools included",
+        "Lifetime access",
+        "Monthly updates",
+        "Commercial usage rights"
+      ],
+      "buttonText": "Buy Now",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+    },
+    {
+      "id": 2,
+      "title": "Design Assets Bundle",
+      "description": "High-quality templates, UI kits, and graphics for professional designers.",
+      "price": 39,
+      "pricingType": "one-time",
+      "badge": "",
+      "features": [
+        "2000+ design templates",
+        "Figma & PSD files",
+        "Free updates",
+        "Commercial license"
+      ],
+      "buttonText": "Buy Now",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1821/1821226.png"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Toolkit",
+      "description": "Boost your business with ready-to-use marketing tools and resources.",
+      "price": 59,
+      "pricingType": "one-time",
+      "badge": "Best Seller",
+      "features": [
+        "Email templates",
+        "Ad creatives",
+        "SEO tools",
+        "Analytics dashboard"
+      ],
+      "buttonText": "Get Access",
+      "icon": "https://cdn-icons-png.flaticon.com/512/4149/4149643.png"
+    },
+    {
+      "id": 4,
+      "title": "Developer Essentials",
+      "description": "A must-have toolkit for developers to build faster and smarter.",
+      "price": 69,
+      "pricingType": "one-time",
+      "badge": "",
+      "features": [
+        "Code snippets",
+        "UI components",
+        "API tools",
+        "Lifetime updates"
+      ],
+      "buttonText": "Start Now",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+    },
+    {
+      "id": 5,
+      "title": "Content Creator Pack",
+      "description": "Everything you need to create engaging content for social media.",
+      "price": 45,
+      "pricingType": "one-time",
+      "badge": "Trending",
+      "features": [
+        "Video templates",
+        "Thumbnail designs",
+        "Audio effects",
+        "Stock images"
+      ],
+      "buttonText": "Buy Now",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2922/2922510.png"
+    },
+    {
+      "id": 6,
+      "title": "Business Growth Suite",
+      "description": "Tools and resources to scale your business efficiently.",
+      "price": 79,
+      "pricingType": "one-time",
+      "badge": "Premium",
+      "features": [
+        "CRM tools",
+        "Automation workflows",
+        "Financial templates",
+        "Priority support"
+      ],
+      "buttonText": "Upgrade Now",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135679.png"
+    }
+]
