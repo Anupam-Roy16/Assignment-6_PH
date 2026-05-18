@@ -1,6 +1,10 @@
 // import React from "react";
 
 const Selected = ({ selectedCard, price,setPrice, setSelectedCard }) => {
+  const handle_checkout_button = () => {
+    console.log("selectedCard");
+    setSelectedCard([]);
+  };
   const handle_remove_button = (card) => {
     
     const newSelectedCard = selectedCard.filter(
@@ -38,6 +42,7 @@ const Selected = ({ selectedCard, price,setPrice, setSelectedCard }) => {
             <p className="opacity-60">Total</p>
             <p className="font-bold">${price}</p>
           </div>
+          <button onClick={()=>handle_checkout_button()} className="btn w-full mt-5 btn-primary rounded-full">Proceed to Checkout</button>
         </div>
       )}
     </div>
