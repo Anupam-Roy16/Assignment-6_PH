@@ -6,8 +6,8 @@ Dynamic Digital Tools Display
 
 This is a responsive web application where users can browse different digital tools, view their details, and select tools dynamically. The UI is clean and interactive, allowing users to manage selected tools and track information easily.  The project focuses on practicing React fundamentals, component structure, and dynamic data handling.
 
-## Technology that you use
-React.js
+## Technology that i use
+React.js \n
 Tailwind CSS
 DaisyUI
 JavaScript (ES6)
